@@ -17,3 +17,7 @@ migrate = Migrate(app, db)
 
 db.init_app(app)
 
+
+from app.users import views
+from app.courses import views
+from app.lessons import views
